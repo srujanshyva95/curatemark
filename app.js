@@ -373,6 +373,525 @@ const CURATEMARK_CATALOG = [
     features: ['Silent Zero-Rattle Carry', 'Pocket & Thigh Scratch Prevention', 'Grade-5 Titanium Construction', 'Quick-Release Belt Clip'],
     factoryCost: 120,
     founderProfit: 269
+  },
+  // --- EXPANDED HIGH-MARGIN & TRENDING STREETWEAR ---
+  {
+    id: 'cm-cargo-01',
+    name: 'Tactical Heavyweight 320 GSM Relaxed Cargo Pants',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Tirupur Heavy Weave Line (Qikink Line)',
+    mrp: 4999,
+    price: 1599,
+    discountPct: 68,
+    rating: 4.9,
+    reviewsCount: 172,
+    image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S (30)', 'M (32)', 'L (34)', 'XL (36)'],
+    availableVariants: ['S (30)', 'M (32)', 'L (34)', 'XL (36)'],
+    stockLeft: 14,
+    badge: 'TRENDING CARGO 🔥',
+    badgeColor: 'bg-emerald-600',
+    description: 'Constructed from industrial 320 GSM high-density cotton twill. Features 6 deep utility bellows pockets, articulated knee darts for relaxed movement, custom matte black hardware, and adjustable ankle cinch toggles.',
+    oemSpecs: '320 GSM Combed Twill • Reinforced Stress Points • Metal Snap Buttons',
+    features: ['Dense 320 GSM Cotton Twill', '6 Deep Utility Pockets', 'Adjustable Ankle Cinch Toggles', 'Relaxed Ergonomic Fit'],
+    factoryCost: 650,
+    founderProfit: 849
+  },
+  {
+    id: 'cm-cargo-02',
+    name: 'Vintage Japanese Washed Wide-Leg Carpenter Pants',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Chennai Denim & Twill Line (Printrove Line)',
+    mrp: 5299,
+    price: 1699,
+    discountPct: 68,
+    rating: 4.9,
+    reviewsCount: 94,
+    image: 'https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S (30)', 'M (32)', 'L (34)', 'XL (36)'],
+    availableVariants: ['S (30)', 'M (32)', 'L (34)', 'XL (36)'],
+    stockLeft: 11,
+    badge: 'SKATER SILHOUETTE',
+    badgeColor: 'bg-indigo-600',
+    description: 'Heavyweight wide-leg carpenter trousers with authentic hammer loop detailing and triple-needle flat-felled chain stitching. Silicone bio-washed for an authentic broken-in drape.',
+    oemSpecs: '100% Cotton Heavy Duck Canvas • Triple Stitch Seams • Brass YKK Zipper',
+    features: ['Wide Leg Relaxed Cut', 'Utility Tool & Hammer Loops', 'Triple Seam Structural Longevity', 'Soft Vintage Enzyme Wash'],
+    factoryCost: 690,
+    founderProfit: 899
+  },
+  {
+    id: 'cm-tee-03',
+    name: 'Raw-Cut Distressed Heavyweight Vintage Tee (280 GSM)',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Tirupur Mineral-Wash Cluster (Qikink Line)',
+    mrp: 2999,
+    price: 949,
+    discountPct: 68,
+    rating: 4.8,
+    reviewsCount: 112,
+    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S', 'M', 'L', 'XL', 'XXL'],
+    availableVariants: ['S', 'M', 'L', 'XL', 'XXL'],
+    stockLeft: 20,
+    badge: 'NEW DROP ⚡',
+    badgeColor: 'bg-emerald-600',
+    description: 'Features raw-cut unhemmed sleeves and collar with subtle hand-placed micro-abrasions. Cut from 280 GSM dense ring-spun combed cotton with drop shoulders and an oversized streetwear drape.',
+    oemSpecs: '280 GSM Single Jersey • Raw Edge Hems • Bio-Polished Finish',
+    features: ['Artisan Hand Distressing', 'Drop Shoulder Boxy Silhouette', 'Heavyweight Combed Cotton', 'Pre-Washed Anti-Shrink'],
+    factoryCost: 370,
+    founderProfit: 479
+  },
+  {
+    id: 'cm-tee-04',
+    name: '3D High-Density Puff Print Heavyweight Tee (300 GSM)',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Tirupur Knitted Cluster (Printrove Line)',
+    mrp: 3499,
+    price: 1099,
+    discountPct: 69,
+    rating: 5.0,
+    reviewsCount: 140,
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S', 'M', 'L', 'XL', 'XXL'],
+    availableVariants: ['S', 'M', 'L', 'XL', 'XXL'],
+    stockLeft: 16,
+    badge: '3D PUFF PRINT 🔥',
+    badgeColor: 'bg-rose-600',
+    description: 'Elevated tactile typography utilizing German foaming plastisol inks cured under multi-stage heat presses. The 3D lettering rises 2mm off the dense 300 GSM French Terry fabric with incredible durability.',
+    oemSpecs: '300 GSM French Terry • 2mm High-Rise Puff Ink • 1.25" Rib Collar',
+    features: ['Raised 3D Foam Typography', '300 GSM Dense Loopback Cotton', 'Zero Cracking Guarantee', 'Luxury Relaxed Fit'],
+    factoryCost: 430,
+    founderProfit: 549
+  },
+  {
+    id: 'cm-hoodie-02',
+    name: 'Cyber Kanji Heavyweight Oversized Zip Hoodie (420 GSM)',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Chennai OEM Export Line (Qikink Line)',
+    mrp: 6499,
+    price: 2199,
+    discountPct: 66,
+    rating: 4.9,
+    reviewsCount: 88,
+    image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S', 'M', 'L', 'XL'],
+    availableVariants: ['S', 'M', 'L', 'XL'],
+    stockLeft: 9,
+    badge: 'HEAVYWEIGHT ZIP',
+    badgeColor: 'bg-purple-600',
+    description: 'Double-slider gunmetal zipper oversized hoodie engineered from 420 GSM brushed fleece. Minimalist Kanji embroidery on chest with large back screen graphic. Finished with customCurateMark metal zipper pulls.',
+    oemSpecs: '420 GSM Brushed Fleece • Dual Metal YKK Zip • Crossover Double Hood',
+    features: ['Two-Way Smooth Metal Zipper', 'Dense Thermal 420 GSM Fleece', 'Double-Lined Heavy Hood', 'Split Kangaroo Pocket'],
+    factoryCost: 890,
+    founderProfit: 1159
+  },
+  {
+    id: 'cm-shirt-01',
+    name: 'Heavyweight Brushed Cotton Flannel Overshirt (320 GSM)',
+    category: 'Streetwear',
+    brand: 'CurateMark Studio',
+    origin: 'Tirupur Woven Mill (Printrove Line)',
+    mrp: 4799,
+    price: 1499,
+    discountPct: 69,
+    rating: 4.8,
+    reviewsCount: 65,
+    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'apparel',
+    variantLabel: 'Size',
+    variants: ['S', 'M', 'L', 'XL'],
+    availableVariants: ['S', 'M', 'L', 'XL'],
+    stockLeft: 15,
+    badge: 'AUTUMN ESSENTIAL',
+    badgeColor: 'bg-amber-700',
+    description: 'Double-brushed 100% yarn-dyed cotton flannel built for layering over heavyweight tees. Features twin flap chest pockets, horn buttons, and a straight boxy hem tailored for modern streetwear styling.',
+    oemSpecs: '320 GSM Yarn-Dyed Cotton • Double-Brushed Peach Finish • Horn Buttons',
+    features: ['Substantial Jacket-Weight Flannel', 'Ultra-Soft Double-Brushed Feel', 'Twin Utility Chest Pockets', 'Layering-Optimized Boxy Cut'],
+    factoryCost: 600,
+    founderProfit: 799
+  },
+
+  // --- EXPANDED HIGH-MARGIN DESK & SETUP AESTHETICS ---
+  {
+    id: 'cm-desk-03',
+    name: 'Bauhaus Minimalist Monochrome Grid XL Desk Mat (900x400x4mm)',
+    category: 'Desk & Setup',
+    brand: 'CurateMark Setup',
+    origin: 'Printrove Sublimation Bay (Automated Line)',
+    mrp: 2499,
+    price: 799,
+    discountPct: 68,
+    rating: 4.9,
+    reviewsCount: 142,
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'deskmat',
+    variantLabel: 'Style',
+    variants: ['900x400mm (Architectural Grid)', '900x400mm (Matte Concrete)'],
+    availableVariants: ['900x400mm (Architectural Grid)', '900x400mm (Matte Concrete)'],
+    stockLeft: 22,
+    badge: 'CLEAN DESK SETUP',
+    badgeColor: 'bg-zinc-800',
+    description: 'Clean architectural millimeter grid layout for creators, coders, and designers. 4mm high-density micro-weave cloth ensures flawless optical sensor accuracy and dampens mechanical keyboard reverberations.',
+    oemSpecs: '900 x 400 x 4mm • High-DPI Speed Weave • Anti-Fray Stitched Border',
+    features: ['Acoustic Desk Dampening (4mm)', 'Micro-Weave Optical Glide', 'Reinforced Outer Edge Stitch', 'Spill-Resistant Nano Coat'],
+    factoryCost: 280,
+    founderProfit: 419
+  },
+  {
+    id: 'cm-stand-01',
+    name: 'Ergonomic CNC Matte Aluminum Laptop & Tablet Riser',
+    category: 'Desk & Setup',
+    brand: 'CurateMark Setup',
+    origin: 'Shiprocket Automated Tech Hub',
+    mrp: 3499,
+    price: 1199,
+    discountPct: 66,
+    rating: 4.9,
+    reviewsCount: 118,
+    image: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'edc',
+    variantLabel: 'Finish',
+    variants: ['Space Grey Anodized', 'Silver Mist'],
+    availableVariants: ['Space Grey Anodized', 'Silver Mist'],
+    stockLeft: 18,
+    badge: 'AESTHETIC DESK GEAR',
+    badgeColor: 'bg-indigo-600',
+    description: 'Machined from solid aircraft-grade aluminum with sandblasted anodized texture matching MacBook and ThinkPad chassis. Elevates your screen to eye level to prevent cervical strain while promoting 360-degree passive heat dissipation.',
+    oemSpecs: 'Aviation 6063 Aluminum • Anti-Scratch Silicone Pads • Holds up to 10kg',
+    features: ['Ergonomic Eye-Level Elevation', 'Solid Vibration-Free Aluminum', 'Protective Non-Slip Silicone', 'Thermal Airflow Channel'],
+    factoryCost: 480,
+    founderProfit: 629
+  },
+  {
+    id: 'cm-tumbler-02',
+    name: 'Smart Vacuum Flask with Digital LED Temperature Lid (600ml)',
+    category: 'Desk & Setup',
+    brand: 'CurateMark Setup',
+    origin: 'Printrove Drinkware Line (Automated Line)',
+    mrp: 2699,
+    price: 899,
+    discountPct: 67,
+    rating: 4.8,
+    reviewsCount: 85,
+    image: 'https://images.unsplash.com/photo-1577741314755-048d8525d31e?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1577741314755-048d8525d31e?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'tumbler',
+    variantLabel: 'Color',
+    variants: ['Matte Stealth Black (600ml)', 'Glacier White (600ml)'],
+    availableVariants: ['Matte Stealth Black (600ml)', 'Glacier White (600ml)'],
+    stockLeft: 19,
+    badge: 'SMART DRINKWARE',
+    badgeColor: 'bg-blue-600',
+    description: 'Touch-sensitive high-definition OLED temperature display on the lid tells you liquid heat in real time with zero burning risk. Double-wall 304 food-grade stainless steel with internal tea/coffee infuser strainer.',
+    oemSpecs: '304 Stainless Steel • Smart LCD Lid • 24h Cold / 12h Hot Vacuum',
+    features: ['1-Touch Real-Time Temp Display', 'Includes Removable Tea Infuser', 'Zero Battery Charging Required', '100% Leakproof Vacuum Seal'],
+    factoryCost: 320,
+    founderProfit: 479
+  },
+
+  // --- EXPANDED HIGH-MARGIN VIRAL EDC & TECH GEAR ---
+  {
+    id: 'cm-wallet-03',
+    name: 'Bifold RFID Top-Grain Vintage Hunter Leather Slim Wallet',
+    category: 'Viral EDC',
+    brand: 'CurateMark EDC',
+    origin: 'Shiprocket Automated EDC Hub',
+    mrp: 2799,
+    price: 849,
+    discountPct: 70,
+    rating: 4.9,
+    reviewsCount: 156,
+    image: 'https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'wallet',
+    variantLabel: 'Finish',
+    variants: ['Vintage Cognac Brown', 'Obsidian Black'],
+    availableVariants: ['Vintage Cognac Brown', 'Obsidian Black'],
+    stockLeft: 24,
+    badge: 'GENUINE LEATHER ⭐',
+    badgeColor: 'bg-amber-800',
+    description: 'Handcrafted from 100% full-grain oil-waxed Hunter leather that develops a gorgeous rich patina over time. Houses 8 cards, full-length cash compartment, and pull-tab quick access slot protected by RFID blocking foil.',
+    oemSpecs: 'Full-Grain Waxed Leather • Embedded RFID Shield • Ultra-Thin 11mm',
+    features: ['100% Real Top-Grain Leather', 'Full RFID Anti-Theft Protection', 'Easy Pull-Tab Card Drawer', 'Ages With Rich Natural Patina'],
+    factoryCost: 290,
+    founderProfit: 469
+  },
+  {
+    id: 'cm-jewel-02',
+    name: '316L Waterproof Minimalist Herringbone Snake Chain',
+    category: 'Viral EDC',
+    brand: 'CurateMark Precision',
+    origin: 'Shiprocket Automated EDC Hub',
+    mrp: 2499,
+    price: 749,
+    discountPct: 70,
+    rating: 4.8,
+    reviewsCount: 104,
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1611591475883-9b777a80b857?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'jewelry',
+    variantLabel: 'Finish',
+    variants: ['18K Gold PVD', 'Polished Silver'],
+    availableVariants: ['18K Gold PVD', 'Polished Silver'],
+    stockLeft: 26,
+    badge: '100% WATERPROOF',
+    badgeColor: 'bg-emerald-600',
+    description: 'Sleek 5mm flat-woven herringbone chain that lays perfectly flat across the collarbone with liquid-like reflection. Surgical 316L steel with multi-layer PVD finish guarantees zero fading in chlorinated pools or saltwater.',
+    oemSpecs: '316L Surgical Stainless Steel • 5mm Flat Blade Weave • Lifetime Color Shield',
+    features: ['Lays Flat Without Kinking', '100% Shower & Gym Safe', 'Zero Green Skin Tarnish', 'Custom Engraved Lobster Clasp'],
+    factoryCost: 150,
+    founderProfit: 519
+  },
+  {
+    id: 'cm-edc-02',
+    name: 'Aviation Titanium Bolt-Action Tactical EDC Pen',
+    category: 'Viral EDC',
+    brand: 'CurateMark EDC',
+    origin: 'Shiprocket Automated EDC Hub',
+    mrp: 1899,
+    price: 599,
+    discountPct: 68,
+    rating: 4.9,
+    reviewsCount: 78,
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1611591475883-9b777a80b857?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'edc',
+    variantLabel: 'Finish',
+    variants: ['Stonewash Titanium', 'Midnight DLC Black'],
+    availableVariants: ['Stonewash Titanium', 'Midnight DLC Black'],
+    stockLeft: 30,
+    badge: 'FIDGET TACTICAL EDC',
+    badgeColor: 'bg-slate-800',
+    description: 'Addictive bolt-action deployment mechanism with crisp tactile lock. Precision CNC machined from aircraft aluminum with tungsten carbide glass breaker tip and pressurized Schmidt refill that writes underwater.',
+    oemSpecs: 'Aviation Grade CNC Alloy • Bolt-Action Mechanism • Tungsten Emergency Tip',
+    features: ['Satisfying Bolt-Action Click', 'Schmidt EasyFlow 9000 Refill', 'Emergency Glass Breaker Tip', 'Deep-Carry Pocket Clip'],
+    factoryCost: 180,
+    founderProfit: 359
+  },
+
+  // --- NEW HIGH-MARGIN CATEGORY: LUXURY EXTRAIT DE PARFUM (30% Oil Concentration, <2% Returns) ---
+  {
+    id: 'cm-frag-01',
+    name: 'Santal Blanc Extrait de Parfum (30% Oil Concentration, 50ml)',
+    category: 'Fragrance',
+    brand: 'CurateMark Parfums',
+    origin: 'Kannauj Botanical Compounding Lab (Direct Extraction)',
+    mrp: 4200,
+    price: 1299,
+    discountPct: 69,
+    rating: 5.0,
+    reviewsCount: 168,
+    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'fragrance',
+    variantLabel: 'Volume',
+    variants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    availableVariants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    stockLeft: 22,
+    badge: 'EXTRAIT CONCENTRATION 💎',
+    badgeColor: 'bg-emerald-700',
+    description: 'Compounded with 30% pure fragrance oil concentration in Kannauj labs. Opens with cardamom, violet, and iris before settling into a rich, creamy Mysore sandalwood, cedarwood, and smoky amber dry-down. 12+ hours skin longevity.',
+    oemSpecs: '30% Extrait de Parfum • French Glass Bottle • Magnetic Metal Cap',
+    features: ['Extreme 12h+ Skin Projection', '30% Pure Compounded Oil', 'Le Labo / Byredo Profile', 'Zero Watery Dilution'],
+    factoryCost: 380,
+    founderProfit: 819
+  },
+  {
+    id: 'cm-frag-02',
+    name: 'Tobacco Vanille Noir Extrait de Parfum (30% Concentration, 50ml)',
+    category: 'Fragrance',
+    brand: 'CurateMark Parfums',
+    origin: 'Kannauj Botanical Compounding Lab (Direct Extraction)',
+    mrp: 4400,
+    price: 1349,
+    discountPct: 69,
+    rating: 4.9,
+    reviewsCount: 124,
+    image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'fragrance',
+    variantLabel: 'Volume',
+    variants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    availableVariants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    stockLeft: 17,
+    badge: 'VIRAL SCENT 🔥',
+    badgeColor: 'bg-amber-700',
+    description: 'An opulent, warm oriental gourmand. Rich aromatic tobacco leaf and spicy ginger notes melt into creamy Madagascar vanilla beans, tonka, cacao, and rich wood sap. The ultimate cold-weather and evening statement.',
+    oemSpecs: '30% Pure Oil Concentration • Heavy Glass Flacon • Atomizer Mist Spray',
+    features: ['14h+ Beast Mode Longevity', 'Rich Tobacco & Madagascar Vanilla', 'Extrait Strength Oil Formula', 'Designer Tom Ford Tier Profile'],
+    factoryCost: 390,
+    founderProfit: 849
+  },
+  {
+    id: 'cm-frag-03',
+    name: 'Amber Oud Imperial Extrait de Parfum (30% Concentration, 50ml)',
+    category: 'Fragrance',
+    brand: 'CurateMark Parfums',
+    origin: 'Kannauj Botanical Compounding Lab (Direct Extraction)',
+    mrp: 4500,
+    price: 1399,
+    discountPct: 69,
+    rating: 5.0,
+    reviewsCount: 98,
+    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'fragrance',
+    variantLabel: 'Volume',
+    variants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    availableVariants: ['50ml Extrait Spray', '100ml Luxury Flacon'],
+    stockLeft: 12,
+    badge: 'ROYAL OUD',
+    badgeColor: 'bg-yellow-700',
+    description: 'Precious Assam agarwood distilled with royal golden amber, bergamot zest, and Moroccan rose absolute. Deep, sophisticated, and regal without harsh medicinal synthetic alcohols.',
+    oemSpecs: '30% Extrait de Parfum • Assam Agarwood Extract • 100% Vegan & Cruelty Free',
+    features: ['Natural Assam Agarwood & Amber', 'Incredible Sillage & Trail', 'Pure Oil Extrait Concentration', 'Luxury Magnetic Gift Box'],
+    factoryCost: 410,
+    founderProfit: 879
+  },
+
+  // --- NEW HIGH-TICKET CATEGORY: HANDCRAFTED ARTISAN FOOTWEAR (Agra Leathercraft Cluster) ---
+  {
+    id: 'cm-shoe-01',
+    name: 'Italian-Profile Full-Grain Leather Court Sneaker (Chalk White)',
+    category: 'Footwear',
+    brand: 'CurateMark Atelier',
+    origin: 'Agra Artisan Leathercraft Cluster (Export Line)',
+    mrp: 7999,
+    price: 2499,
+    discountPct: 69,
+    rating: 4.9,
+    reviewsCount: 145,
+    image: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'footwear',
+    variantLabel: 'Size (UK)',
+    variants: ['UK 7', 'UK 8', 'UK 9', 'UK 10', 'UK 11'],
+    availableVariants: ['UK 7', 'UK 8', 'UK 9', 'UK 10', 'UK 11'],
+    stockLeft: 10,
+    badge: '100% REAL LEATHER 👟',
+    badgeColor: 'bg-emerald-700',
+    description: 'The Common Projects & Oliver Cabell aesthetic at 1/4th the price. Handcrafted by master cordwainers in Agra using premium full-grain Italian-profile cowhide leather, Margom-style stitched rubber cupsole, and plush calfskin inner lining.',
+    oemSpecs: 'Full-Grain Leather Upper • Calfskin Lining • Stitched Rubber Cupsole',
+    features: ['100% Genuine Full-Grain Leather', 'Reinforced Sidewall Stitching', 'Soft Breathable Calfskin Lining', 'Memory Foam Ergonomic Insole'],
+    factoryCost: 950,
+    founderProfit: 1399
+  },
+  {
+    id: 'cm-shoe-02',
+    name: 'Handcrafted Nappa Leather Minimalist Court Sneaker (Obsidian Black)',
+    category: 'Footwear',
+    brand: 'CurateMark Atelier',
+    origin: 'Agra Artisan Leathercraft Cluster (Export Line)',
+    mrp: 8299,
+    price: 2599,
+    discountPct: 69,
+    rating: 5.0,
+    reviewsCount: 92,
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80'
+    ],
+    variantType: 'footwear',
+    variantLabel: 'Size (UK)',
+    variants: ['UK 7', 'UK 8', 'UK 9', 'UK 10', 'UK 11'],
+    availableVariants: ['UK 7', 'UK 8', 'UK 9', 'UK 10', 'UK 11'],
+    stockLeft: 8,
+    badge: 'LUXURY ATELIER',
+    badgeColor: 'bg-zinc-900',
+    description: 'Sleek monochromatic court sneaker tailored from supple butter-soft Nappa leather. Features tonal waxed cotton laces, gold-foil serial branding at heel, and ultra-durable vulcanized rubber outsole engineered for 500+ miles of daily wear.',
+    oemSpecs: 'Nappa Cowhide • Gold Foil Serial Stamp • Vulcanized Rubber Sole',
+    features: ['Ultra-Soft Butter Nappa Leather', 'Gold-Foil Minimalist Heel Stamp', 'All-Day Cushioning Insole', 'Clean Architectural Silhouette'],
+    factoryCost: 980,
+    founderProfit: 1449
   }
 ];
 
@@ -916,9 +1435,13 @@ class CurateMarkEngine {
       if (p.category === 'Streetwear') {
         originCluster = p.origin.includes('Chennai') ? '📍 Chennai Hub' : '📍 Tirupur Hub';
       } else if (p.category === 'Desk & Setup') {
-        originCluster = p.name.includes('Tumbler') ? '📍 Delhi NCR Hub' : (p.name.includes('Tote') ? '📍 Tirupur Hub' : '📍 Bengaluru Hub');
+        originCluster = (p.name.includes('Tumbler') || p.name.includes('Flask')) ? '📍 Delhi NCR Hub' : (p.name.includes('Tote') ? '📍 Tirupur Hub' : (p.name.includes('Riser') ? '📍 Bengaluru Tech Hub' : '📍 Bengaluru Hub'));
       } else if (p.category === 'Viral EDC') {
-        originCluster = (p.name.includes('Chain') || p.name.includes('Carabiner')) ? '📍 Rajkot Hub' : '📍 Surat / Mumbai';
+        originCluster = (p.name.includes('Chain') || p.name.includes('Carabiner') || p.name.includes('Pen')) ? '📍 Rajkot Hub' : '📍 Surat / Mumbai';
+      } else if (p.category === 'Fragrance') {
+        originCluster = '📍 Kannauj Lab';
+      } else if (p.category === 'Footwear') {
+        originCluster = '📍 Agra Atelier';
       }
 
       return `
@@ -1060,7 +1583,7 @@ class CurateMarkEngine {
     if (label) label.innerText = variant;
   }
 
-  setCategoryFilter(category) {
+  setCategoryFilter(category, autoScroll = false) {
     this.filters.category = category;
     
     // Update active styling on category tab buttons
@@ -1078,12 +1601,19 @@ class CurateMarkEngine {
     if (catSelect) catSelect.value = category;
 
     this.renderProducts();
+
+    if (autoScroll) {
+      const catalogEl = document.getElementById('catalog');
+      if (catalogEl) {
+        catalogEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   }
 
   resetFilters() {
     this.filters = {
       category: 'ALL',
-      maxPrice: 4000,
+      maxPrice: 6000,
       search: '',
       sort: 'popular'
     };
@@ -1097,10 +1627,28 @@ class CurateMarkEngine {
     if (catSelect) catSelect.value = 'ALL';
     if (sortSelect) sortSelect.value = 'popular';
     if (searchInput) searchInput.value = '';
-    if (priceSlider) priceSlider.value = 4000;
-    if (priceVal) priceVal.innerText = '₹4,000';
+    if (priceSlider) priceSlider.value = 6000;
+    if (priceVal) priceVal.innerText = '₹6,000';
 
     this.setCategoryFilter('ALL');
+  }
+
+  triggerSearch(query = null) {
+    const searchInput = document.getElementById('catalog-search');
+    if (searchInput) {
+      if (query !== null) searchInput.value = query;
+      this.filters.search = searchInput.value;
+    }
+    this.renderProducts();
+    const cat = document.getElementById('catalog');
+    if (cat) cat.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  clearSearch() {
+    const searchInput = document.getElementById('catalog-search');
+    if (searchInput) searchInput.value = '';
+    this.filters.search = '';
+    this.renderProducts();
   }
 
   // ==========================================================================
@@ -1517,7 +2065,7 @@ class CurateMarkEngine {
           <i data-lucide="shopping-bag" class="w-16 h-16 mx-auto mb-3 text-slate-300"></i>
           <h4 class="text-lg font-bold text-slate-900 mb-1">Your CurateMark Bag is Empty</h4>
           <p class="text-xs text-slate-500 mb-6">Explore our direct OEM capsules with zero retail markup.</p>
-          <button onclick="window.store.closeCartDrawer()" class="btn-primary px-5 py-2.5 rounded-xl text-xs font-bold">
+          <button onclick="window.store.closeCartDrawer(); const cat = document.getElementById('catalog'); if (cat) cat.scrollIntoView({ behavior: 'smooth', block: 'start' });" class="btn-primary px-5 py-2.5 rounded-xl text-xs font-bold">
             Explore Factory Drops
           </button>
         </div>
@@ -2379,6 +2927,15 @@ ${pkgSummary || 'Direct Factory Express Assigned'}
     }
   }
 
+  viewOrderReceipt(orderId) {
+    const order = this.orders.find(o => o.id === orderId);
+    if (!order) {
+      this.showToast('Order details not found', 'error');
+      return;
+    }
+    this.openOrderSuccessModal(order);
+  }
+
   openOrderSuccessModal(order) {
     const modal = document.getElementById('order-success-modal');
     if (!modal) return;
@@ -2568,7 +3125,7 @@ ${pkgSummary || 'Direct Factory Express Assigned'}
 
         <div class="flex items-center justify-between text-xs pt-2 border-t border-slate-200">
           <span class="text-slate-500">Total: <strong class="text-slate-900">₹${o.total.toLocaleString('en-IN')}</strong></span>
-          <button onclick="window.store.openOrderSuccessModal(${JSON.stringify(o).replace(/"/g, '&quot;')})" class="text-emerald-700 hover:underline font-bold text-xs">
+          <button onclick="window.store.viewOrderReceipt('${escapeHtml(o.id)}')" class="text-emerald-700 hover:underline font-bold text-xs">
             View Official Receipt
           </button>
         </div>
@@ -3340,6 +3897,15 @@ ${pkgSummary || 'Direct Factory Express Assigned'}
       searchInput.addEventListener('input', e => {
         this.filters.search = e.target.value;
         this.renderProducts();
+      });
+      searchInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          this.filters.search = e.target.value;
+          this.renderProducts();
+          const cat = document.getElementById('catalog');
+          if (cat) cat.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       });
     }
 

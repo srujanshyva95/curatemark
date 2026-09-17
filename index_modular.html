@@ -117,23 +117,30 @@
         </a>
 
         <!-- Quick Category Navigation (Desktop) -->
-        <nav class="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-600">
-          <button onclick="window.store.setCategoryFilter('ALL')" class="hover:text-slate-900 transition">All Drops</button>
-          <button onclick="window.store.setCategoryFilter('Streetwear')" class="hover:text-slate-900 transition">Streetwear</button>
-          <button onclick="window.store.setCategoryFilter('Desk & Setup')" class="hover:text-slate-900 transition">Desk & Setup</button>
-          <button onclick="window.store.setCategoryFilter('Viral EDC')" class="hover:text-slate-900 transition">Viral EDC</button>
+        <nav class="hidden lg:flex items-center gap-5 text-xs font-semibold text-slate-600">
+          <button onclick="window.store.setCategoryFilter('ALL', true)" class="hover:text-slate-900 transition">All Drops</button>
+          <button onclick="window.store.setCategoryFilter('Streetwear', true)" class="hover:text-slate-900 transition">Streetwear</button>
+          <button onclick="window.store.setCategoryFilter('Desk & Setup', true)" class="hover:text-slate-900 transition">Desk & Setup</button>
+          <button onclick="window.store.setCategoryFilter('Viral EDC', true)" class="hover:text-slate-900 transition">Viral EDC</button>
+          <button onclick="window.store.setCategoryFilter('Fragrance', true)" class="hover:text-slate-900 transition">Fragrance</button>
+          <button onclick="window.store.setCategoryFilter('Footwear', true)" class="hover:text-slate-900 transition">Footwear</button>
         </nav>
 
         <!-- Quick Search Bar (Desktop & Tablet) -->
         <div class="flex-1 max-w-xs lg:max-w-sm mx-1 sm:mx-4">
           <div class="relative w-full">
-            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+            <button onclick="window.store.triggerSearch()" class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition" title="Search catalog">
+              <i data-lucide="search" class="w-4 h-4"></i>
+            </button>
             <input 
               type="text" 
               id="catalog-search"
-              placeholder="Search drops, tees, desk mats..." 
-              class="w-full bg-slate-100/90 hover:bg-slate-100 focus:bg-white border border-slate-200 focus:border-slate-900 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition shadow-2xs"
+              placeholder="Search drops, tees, cargos, perfumes..." 
+              class="w-full bg-slate-100/90 hover:bg-slate-100 focus:bg-white border border-slate-200 focus:border-slate-900 rounded-xl pl-9 pr-8 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition shadow-2xs"
             />
+            <button onclick="window.store.clearSearch()" class="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 p-0.5 transition" title="Clear search">
+              <i data-lucide="x" class="w-3.5 h-3.5"></i>
+            </button>
           </div>
         </div>
 
@@ -162,10 +169,12 @@
 
       <!-- Mobile Quick Category Scroll Bar -->
       <div class="lg:hidden px-4 py-2 bg-slate-50/90 border-t border-slate-200 overflow-x-auto flex items-center gap-2">
-        <button onclick="window.store.setCategoryFilter('ALL')" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-bold bg-white text-slate-800 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">All Drops</button>
-        <button onclick="window.store.setCategoryFilter('Streetwear')" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Streetwear</button>
-        <button onclick="window.store.setCategoryFilter('Desk & Setup')" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Desk & Setup</button>
-        <button onclick="window.store.setCategoryFilter('Viral EDC')" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Viral EDC</button>
+        <button onclick="window.store.setCategoryFilter('ALL', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-bold bg-white text-slate-800 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">All Drops</button>
+        <button onclick="window.store.setCategoryFilter('Streetwear', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Streetwear</button>
+        <button onclick="window.store.setCategoryFilter('Desk & Setup', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Desk & Setup</button>
+        <button onclick="window.store.setCategoryFilter('Viral EDC', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Viral EDC</button>
+        <button onclick="window.store.setCategoryFilter('Fragrance', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Fragrance</button>
+        <button onclick="window.store.setCategoryFilter('Footwear', true)" class="shrink-0 px-3 py-1 rounded-lg text-[11px] font-semibold bg-white text-slate-600 border border-slate-200 shadow-2xs hover:bg-slate-100 transition">Footwear</button>
       </div>
     </header>
   </div>
@@ -520,21 +529,29 @@
         <button onclick="window.store.setCategoryFilter('Viral EDC')" class="category-tab px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200 hover:border-slate-400 transition" data-category="Viral EDC">
           Viral EDC & Smart Tech
         </button>
+        <button onclick="window.store.setCategoryFilter('Fragrance')" class="category-tab px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200 hover:border-slate-400 transition" data-category="Fragrance">
+          Luxury Fragrance
+        </button>
+        <button onclick="window.store.setCategoryFilter('Footwear')" class="category-tab px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200 hover:border-slate-400 transition" data-category="Footwear">
+          Artisan Footwear
+        </button>
       </div>
     </div>
 
     <!-- Filter Control Panel -->
     <div class="bg-white border border-slate-200 rounded-2xl p-4 sm:p-5 mb-8 shadow-sm">
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end">
         
         <!-- Category Dropdown -->
         <div>
           <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1.5">Category</label>
           <select id="filter-category" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-900 focus:border-slate-900 focus:outline-none">
             <option value="ALL">All Categories</option>
-            <option value="Streetwear">Viral Streetwear (Acid-Wash, Anime & Heavyweight)</option>
-            <option value="Desk & Setup">Viral Desk Aesthetics & Lifestyle Setup</option>
+            <option value="Streetwear">Viral Streetwear (Tees, Cargos, Flannels & Hoodies)</option>
+            <option value="Desk & Setup">Desk Aesthetics & Lifestyle Setup</option>
             <option value="Viral EDC">Smart RFID Wallets & EDC Tech Gear</option>
+            <option value="Fragrance">Luxury Extrait de Parfum (30% Concentration)</option>
+            <option value="Footwear">Handcrafted Leather Court Footwear</option>
           </select>
         </div>
 
@@ -553,17 +570,30 @@
         <div>
           <div class="flex items-center justify-between text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1.5">
             <span>Max Price Ceiling</span>
-            <span id="price-val" class="text-slate-900 font-mono font-bold">₹4,000</span>
+            <span id="price-val" class="text-slate-900 font-mono font-bold">₹6,000</span>
           </div>
           <input 
             type="range" 
             id="filter-price" 
-            min="600" 
-            max="4000" 
+            min="400" 
+            max="6000" 
             step="100" 
-            value="4000" 
+            value="6000" 
             class="w-full accent-slate-900 cursor-pointer"
           />
+        </div>
+
+        <!-- Reset Button -->
+        <div>
+          <button 
+            type="button" 
+            onclick="window.store.resetFilters()" 
+            class="btn-secondary w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 hover:border-slate-400 transition"
+            title="Reset all filters, search query, and price slider"
+          >
+            <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+            <span>Reset All Filters</span>
+          </button>
         </div>
 
       </div>
@@ -720,11 +750,13 @@
       <div>
         <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Product Capsules</h4>
         <ul class="space-y-2 text-xs text-slate-400">
-          <li><a href="#catalog" class="hover:text-white transition">280–300 GSM Heavyweight T-Shirts</a></li>
-          <li><a href="#catalog" class="hover:text-white transition">450 GSM French Terry Hoodies</a></li>
-          <li><a href="#catalog" class="hover:text-white transition">900x400mm Topographic Desk Mats</a></li>
-          <li><a href="#catalog" class="hover:text-white transition">Double-Wall 304 Steel Tumblers</a></li>
-          <li><a href="#catalog" class="hover:text-white transition">RFID Carbon Fiber Smart Wallets</a></li>
+          <li><button onclick="window.store.setCategoryFilter('Streetwear', true)" class="hover:text-white transition text-left">280–320 GSM Heavyweight Streetwear</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Streetwear', true)" class="hover:text-white transition text-left">450 GSM French Terry Hoodies & Cargos</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Desk & Setup', true)" class="hover:text-white transition text-left">900x400mm Topographic Speed Desk Mats</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Desk & Setup', true)" class="hover:text-white transition text-left">Double-Wall 304 Tumblers & CNC Risers</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Viral EDC', true)" class="hover:text-white transition text-left">RFID Carbon Fiber Smart Wallets & EDC</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Fragrance', true)" class="hover:text-white transition text-left">Luxury 30% Extrait de Parfum (Kannauj)</button></li>
+          <li><button onclick="window.store.setCategoryFilter('Footwear', true)" class="hover:text-white transition text-left">Handcrafted Leather Court Footwear (Agra)</button></li>
         </ul>
       </div>
 
@@ -744,7 +776,7 @@
       <div>
         <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Direct OEM Sourcing Hubs</h4>
         <p class="text-xs text-slate-400 mb-2">
-          🏭 Tirupur • Chennai • Bengaluru • Rajkot
+          🏭 Tirupur • Chennai • Bengaluru • Rajkot • Kannauj • Agra
         </p>
         <p class="text-xs text-slate-400 mb-3">
           ⚡ Automated Dispatch: 24-48h SLA<br />

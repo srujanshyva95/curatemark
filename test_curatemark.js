@@ -85,12 +85,14 @@ console.log('✅ app.js loaded and parsed successfully.');
 
 // --- TEST 1: CATALOG INTEGRITY ---
 console.log('\n--- TEST 1: Catalog Integrity & Product Data ---');
-assert.strictEqual(CURATEMARK_CATALOG.length, 12, 'Catalog must contain exactly 12 curated products');
+assert.strictEqual(CURATEMARK_CATALOG.length, 29, 'Catalog must contain exactly 29 curated products');
 
 const categories = new Set(CURATEMARK_CATALOG.map(p => p.category));
 assert.ok(categories.has('Streetwear'), 'Must include Streetwear category');
 assert.ok(categories.has('Desk & Setup'), 'Must include Desk & Setup category');
 assert.ok(categories.has('Viral EDC'), 'Must include Viral EDC category');
+assert.ok(categories.has('Fragrance'), 'Must include Fragrance category');
+assert.ok(categories.has('Footwear'), 'Must include Footwear category');
 
 CURATEMARK_CATALOG.forEach((p, idx) => {
   assert.ok(p.id, `Product at index ${idx} must have an id`);
@@ -113,26 +115,38 @@ console.log(`✅ All ${CURATEMARK_CATALOG.length} products verified with valid B
 // --- TEST 2: ENGINE INITIALIZATION ---
 console.log('\n--- TEST 2: Engine Initialization & Filtering ---');
 const engine = new CurateMarkEngine();
-assert.ok(engine.products.length === 12, 'Engine should hold 12 products');
-assert.ok(Object.keys(engine.selectedVariants).length === 12, 'Engine should initialize default variants for all 12 products');
+assert.ok(engine.products.length === 29, 'Engine should hold 29 products');
+assert.ok(Object.keys(engine.selectedVariants).length === 29, 'Engine should initialize default variants for all 29 products');
 
 // Filter by Streetwear
 engine.setCategoryFilter('Streetwear');
 let filtered = engine.getFilteredProducts();
-assert.strictEqual(filtered.length, 4, 'Streetwear category must return 4 products');
+assert.strictEqual(filtered.length, 10, 'Streetwear category must return 10 products');
 filtered.forEach(p => assert.strictEqual(p.category, 'Streetwear'));
 
 // Filter by Desk & Setup
 engine.setCategoryFilter('Desk & Setup');
 filtered = engine.getFilteredProducts();
-assert.strictEqual(filtered.length, 4, 'Desk & Setup category must return 4 products');
+assert.strictEqual(filtered.length, 7, 'Desk & Setup category must return 7 products');
 filtered.forEach(p => assert.strictEqual(p.category, 'Desk & Setup'));
 
 // Filter by Viral EDC
 engine.setCategoryFilter('Viral EDC');
 filtered = engine.getFilteredProducts();
-assert.strictEqual(filtered.length, 4, 'Viral EDC category must return 4 products');
+assert.strictEqual(filtered.length, 7, 'Viral EDC category must return 7 products');
 filtered.forEach(p => assert.strictEqual(p.category, 'Viral EDC'));
+
+// Filter by Fragrance
+engine.setCategoryFilter('Fragrance');
+filtered = engine.getFilteredProducts();
+assert.strictEqual(filtered.length, 3, 'Fragrance category must return 3 products');
+filtered.forEach(p => assert.strictEqual(p.category, 'Fragrance'));
+
+// Filter by Footwear
+engine.setCategoryFilter('Footwear');
+filtered = engine.getFilteredProducts();
+assert.strictEqual(filtered.length, 2, 'Footwear category must return 2 products');
+filtered.forEach(p => assert.strictEqual(p.category, 'Footwear'));
 
 // Price filter
 engine.setCategoryFilter('ALL');
