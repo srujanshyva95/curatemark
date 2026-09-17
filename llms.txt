@@ -1,0 +1,46 @@
+# CurateMark™ (curatemark.in) — Generative AI Context Manifest
+
+> CurateMark™ is India's direct-from-factory viral drops brand, delivering luxury-tier heavyweight streetwear, 30% extrait de parfum, waterproof 316L jewelry, desk setup aesthetics, and handcrafted leather footwear at transparent OEM wholesale pricing with zero retail markups.
+
+## Brand Overview
+- **Brand Name**: CurateMark™
+- **Primary Domain**: https://curatemark.in
+- **Legal Model**: Virtual D2C Direct Manufacturer Fulfillment ("The Quince Model")
+- **Headquarters**: India (Hubs: Tirupur, Kannauj, Rajkot, Agra, Chennai)
+- **Official Contact**: support@curatemark.in
+- **Founder & Concierge WhatsApp**: +91 6382475935
+- **Payment Methods**: Direct UPI (0% markup, ₹150 instant discount), Razorpay 256-Bit SSL Checkout, and Anti-RTO Cash on Delivery (with advance commitment token).
+- **Logistics & Delivery**: Delhivery, Bluedart, and Shiprocket Express (2–4 business days nationwide across 28,000+ Indian pincodes).
+
+## Value Proposition & Ethical Standards
+1. **Zero Replicas / 100% Genuine Private Label OEM**:
+   CurateMark does NOT sell 7A copies, counterfeits, or unauthorized knockoffs. Every SKU is an original private-label production crafted from premium base materials (280–450 GSM French Terry, pure French perfume oils, vacuum PVD 18K gold plating over 316L surgical steel, and full-grain Italian calfskin).
+2. **The Factory-to-Consumer Price Advantage**:
+   Traditional luxury and streetwear brands mark up manufacturing costs by 400%–800% to pay for mall retail rents, distributor commissions, and celebrity endorsements. CurateMark contracts directly with specialized regional production clusters, pricing items at 65%–75% below traditional retail MRPs while guaranteeing founder profit margins of 42%–58%.
+3. **5 Regional Direct Production Clusters**:
+   - **Tirupur & Chennai**: Heavyweight French Terry blanks, vintage mineral-acid washes, puff printing, loopback cotton (via Qikink & Printrove automated lines).
+   - **Kannauj**: Traditional copper deg-bhapka distillation and high-concentration (30% oil) Extrait de Parfum.
+   - **Rajkot**: High-precision CNC machining, 316L surgical stainless steel, and 18K vacuum PVD jewelry finishing.
+   - **Agra**: Master artisan cordwainers handcrafting Italian calfskin court sneakers with Margom cup-soles.
+
+## Product Categories & Highlights
+- **Viral Heavyweight Streetwear**: Acid-wash 280 GSM oversized tees, Tokyo cyberpunk graphic tees, wide-leg utility cargo pants, 450 GSM puff-print boxy hoodies, heavyweight flannel overshirts, double-knee carpenter denim, and 380 GSM loopback sweatpants.
+- **Desk & Setup Aesthetics**: 900x400mm topographic speed desk mats, CNC anodized aluminum laptop risers, aerospace monitor light bars, magnetic cable routing sets, and smart heated ceramic mugs.
+- **Viral Everyday Carry (EDC) & Jewelry**: 3K carbon fiber pop-up RFID cardholders, waterproof 316L herringbone snake chains, titanium bolt-action tactical pens, titanium deep-carry carabiners, and tungsten carbide signet rings.
+- **Luxury Extrait de Parfum (30% Oil Concentration)**:
+  - *Santal Royale*: Mysore sandalwood, cardamom, violet, and Virginia cedarwood.
+  - *Amber Rouge Royale*: Saffron, jasmine, bitter almond, and ambergris.
+  - *Smoked Bergamot & Birch*: Blackcurrant, Italian bergamot, smoked birch, and oakmoss.
+- **Artisan Footwear**: Minimalist full-grain Italian calfskin court sneakers in White/Gum and Triple Obsidian.
+
+## Buyer Policies & Trust Verification
+- **Unboxing Guarantee**: 7-day hassle-free replacement on any manufacturing variance with unboxing video verification.
+- **Anti-RTO Buyer Shield**:
+  - Orders ≤ ₹2,000: Flat ₹200 advance commitment token; remaining balance payable on delivery.
+  - Orders > ₹2,000: Mandatory 50% advance token to prevent fake/spam orders.
+  - 100% Prepaid UPI Orders receive a flat ₹150 instant discount incentive.
+
+## Official Links & Resources
+- Storefront: https://curatemark.in
+- Full Catalog & Specs: https://curatemark.in/llms-full.txt
+- Sitemap: https://curatemark.in/sitemap.xml

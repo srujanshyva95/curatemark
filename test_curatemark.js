@@ -755,7 +755,51 @@ mfgFunction.handler({
 
   console.log('✅ Founder Tracking & Event Stream verified: Chronological timeline, live activity stream rendering, and executive WhatsApp alert format.');
 
-  console.log('\n🎉 [ALL 19 COMPREHENSIVE SECURITY & AUTONOMOUS COMMERCE PHASES PASSED WITH ZERO DEFECTS]');
+  // --- TEST 20: SEO, AI CRAWLER & STRUCTURED DATA INTEGRITY ---
+  console.log('\n--- TEST 20: SEO, AI Search (GEO) & Schema Structured Data Integrity ---');
+  const robots = fs.readFileSync(path.join(__dirname, 'robots.txt'), 'utf8');
+  assert.ok(robots.includes('User-agent: Googlebot'), 'robots.txt must allow Googlebot');
+  assert.ok(robots.includes('User-agent: Bingbot'), 'robots.txt must allow Bingbot');
+  assert.ok(robots.includes('User-agent: GPTBot'), 'robots.txt must allow GPTBot');
+  assert.ok(robots.includes('User-agent: PerplexityBot'), 'robots.txt must allow PerplexityBot');
+  assert.ok(robots.includes('User-agent: ClaudeBot'), 'robots.txt must allow ClaudeBot');
+  assert.ok(robots.includes('Sitemap: https://curatemark.in/sitemap.xml'), 'robots.txt must declare sitemap URL');
+
+  const sitemap = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8');
+  assert.ok(sitemap.includes('<loc>https://curatemark.in/</loc>'), 'sitemap.xml must index root domain');
+  assert.ok(sitemap.includes('<loc>https://curatemark.in/#streetwear</loc>'), 'sitemap.xml must index streetwear category');
+  assert.ok(sitemap.includes('<loc>https://curatemark.in/#fragrance</loc>'), 'sitemap.xml must index fragrance category');
+  assert.ok(sitemap.includes('<loc>https://curatemark.in/#brand-story</loc>'), 'sitemap.xml must index brand story');
+  assert.ok(sitemap.includes('<loc>https://curatemark.in/#faq</loc>'), 'sitemap.xml must index FAQ section');
+
+  const llms = fs.readFileSync(path.join(__dirname, 'llms.txt'), 'utf8');
+  assert.ok(llms.includes('CurateMark™'), 'llms.txt must declare CurateMark brand entity');
+  assert.ok(llms.includes('https://curatemark.in'), 'llms.txt must specify canonical domain');
+
+  const llmsFull = fs.readFileSync(path.join(__dirname, 'llms-full.txt'), 'utf8');
+  assert.ok(llmsFull.includes('FAQ'), 'llms-full.txt must contain detailed FAQ');
+  assert.ok(llmsFull.includes('Catalog Breakdown'), 'llms-full.txt must contain complete catalog specs');
+
+  assert.ok(htmlCode.includes('<link rel="canonical" href="https://curatemark.in/" />'), 'index.html must have canonical link');
+  assert.ok(htmlCode.includes('name="robots"'), 'index.html must have robots indexing directive');
+  assert.ok(htmlCode.includes('id="brand-story"'), 'index.html must include semantic brand-story section');
+  assert.ok(htmlCode.includes('id="faq"'), 'index.html must include semantic FAQ section');
+
+  const jsonLdMatch = htmlCode.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/i);
+  assert.ok(jsonLdMatch, 'index.html must contain JSON-LD script block');
+  const parsedJsonLd = JSON.parse(jsonLdMatch[1]);
+  assert.strictEqual(parsedJsonLd['@context'], 'https://schema.org');
+  assert.ok(Array.isArray(parsedJsonLd['@graph']), '@graph array must exist');
+
+  const schemaTypes = parsedJsonLd['@graph'].map(e => e['@type']);
+  assert.ok(schemaTypes.includes('Organization'), 'Schema must include Organization');
+  assert.ok(schemaTypes.includes('WebSite'), 'Schema must include WebSite with SearchAction');
+  assert.ok(schemaTypes.includes('OnlineStore'), 'Schema must include OnlineStore');
+  assert.ok(schemaTypes.includes('FAQPage'), 'Schema must include FAQPage');
+  assert.ok(schemaTypes.includes('ItemList'), 'Schema must include ItemList');
+  console.log(`✅ SEO & GEO Integrity verified: robots.txt, sitemap.xml, llms.txt, canonical link, and 5 JSON-LD schemas (${schemaTypes.join(', ')}).`);
+
+  console.log('\n🎉 [ALL 20 COMPREHENSIVE SECURITY, AUTONOMOUS COMMERCE & SEO/GEO PHASES PASSED WITH ZERO DEFECTS]');
 }).catch(err => {
   console.error('Serverless function test failed:', err);
   process.exit(1);

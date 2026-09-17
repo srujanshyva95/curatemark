@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage & Core Storefront -->
+  <url>
+    <loc>https://curatemark.in/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>CurateMark™ Direct Factory Viral Drops</image:title>
+      <image:caption>Direct-from-factory viral luxury streetwear, 30% extrait de parfum, 316L jewelry, and artisan footwear at zero retail markups.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Category: Streetwear -->
+  <url>
+    <loc>https://curatemark.in/#streetwear</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&amp;fit=crop&amp;w=800&amp;q=80</image:loc>
+      <image:title>CurateMark Heavyweight Streetwear - 280-450 GSM French Terry</image:title>
+      <image:caption>Acid-wash boxy tees, utility cargos, puff-print hoodies, and heavy flannel overshirts directly from Tirupur.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Category: Desk & Setup -->
+  <url>
+    <loc>https://curatemark.in/#desk-setup</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&amp;fit=crop&amp;w=800&amp;q=80</image:loc>
+      <image:title>CurateMark Desk &amp; Setup Aesthetics</image:title>
+      <image:caption>Topographic speed mats, aluminum laptop risers, aerospace monitor light bars, and smart heated drinkware.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Category: Viral EDC -->
+  <url>
+    <loc>https://curatemark.in/#viral-edc</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&amp;fit=crop&amp;w=800&amp;q=80</image:loc>
+      <image:title>CurateMark Viral Everyday Carry (EDC)</image:title>
+      <image:caption>Carbon fiber RFID wallets, waterproof 316L herringbone chains, titanium bolt-action pens, and tungsten rings.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Category: Fragrance -->
+  <url>
+    <loc>https://curatemark.in/#fragrance</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&amp;fit=crop&amp;w=800&amp;q=80</image:loc>
+      <image:title>CurateMark Luxury Extrait de Parfum (30% Oil Concentration)</image:title>
+      <image:caption>Handcrafted in Kannauj master distilleries using pure Indian sandalwood, amber, and French perfume oils.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Category: Footwear -->
+  <url>
+    <loc>https://curatemark.in/#footwear</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&amp;fit=crop&amp;w=800&amp;q=80</image:loc>
+      <image:title>CurateMark Handcrafted Calfskin Court Sneakers</image:title>
+      <image:caption>Full-grain Italian calfskin court sneakers handcrafted by master artisans in Agra with Margom rubber cupsoles.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About & Brand Story -->
+  <url>
+    <loc>https://curatemark.in/#brand-story</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ & Anti-RTO Buyer Guarantee -->
+  <url>
+    <loc>https://curatemark.in/#faq</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
